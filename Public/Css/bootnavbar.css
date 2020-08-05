@@ -1,0 +1,58 @@
+.navbar
+{
+    background-color : #FBFBFB;
+    background-image : -o-linear-gradient(top,#FBFBFB,#DEDEDE);
+    background-image : linear-gradient(top,#F8F8F8,#DEDEDE);
+    background-repeat: repeat-x;
+    filter           : progid:DXImageTransform.Microsoft.gradient(startColorstr='#8c8f9122', endColorstr='#e6e7e811', GradientType=0);
+    border-color     : #FBFBFB;
+}
+
+.dropdown-menu
+{
+    margin-top: 0;
+}
+
+.dropdown-menu .dropdown-toggle::after
+{
+    vertical-align: middle;
+    border-left   : 4px solid;
+    border-bottom : 4px solid transparent;
+    border-top    : 4px solid transparent;
+}
+.dropdown-menu .dropdown .dropdown-menu
+{
+    left        : 90%;
+    top         : 0%;
+    margin      : 0 20px;
+    border-width: 0;
+}
+
+.dropdown-menu .dropdown .dropdown-menu.left
+{
+    right: 100%;
+    left : auto;
+}
+
+.dropdown-menu > li a:hover, .dropdown-menu > li.show
+{
+    background: linear-gradient(top,#F8F8F8,#DEDEDE);
+	color     : #000;
+}
+
+.dropdown-menu > li.show > a
+{
+    color: #000;
+}
+
+
+@media (min-width: 768px)
+{
+    
+    .dropdown-menu .dropdown .dropdown-menu
+    {
+        margin      : 0;
+        border-width: 1px;
+    }
+
+}

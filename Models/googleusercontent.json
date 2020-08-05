@@ -1,0 +1,11 @@
+{
+     "web" : {
+               "client_id" : "513105298498-l3c7h1r0arp1ubgk1541uijh71un74gn.apps.googleusercontent.com",
+               "project_id" : "clave-283417",
+               "auth_uri" : "https://accounts.google.com/o/oauth2/auth",
+               "token_uri" : "https://oauth2.googleapis.com/token",
+               "auth_provider_x509_cert_url" : "https://www.googleapis.com/oauth2/v1/certs",
+               "client_secret" : "ZBRGo2nqFepPcvwfS7sWZOcM",
+               "redirect_uris" : ["https://localhost/Clave/Index.php"]
+             }
+}
